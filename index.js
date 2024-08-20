@@ -1,3 +1,40 @@
+//7
+// let arr = [3, 5, 9, 4, 2, 6]
+// const max = Math.max(...arr)
+// const index = arr.indexOf(max)
+// console.log(max);
+// console.log(index);
+
+//8
+// let arr= []
+// while(true){
+//     let a = +prompt('Num')
+
+//     arr.push(a)
+//     let sum = arr.reduce((acc , val)=>acc+val , 0)
+//     if(sum>50){
+//         break
+//     }
+//     if(a === 0){
+//         break
+//     }
+// }
+// console.log(arr);
+
+//9
+// const arr = Array.from(
+//       { length: 20 },
+//       () => Math.floor(Math.random() * 100) - 50
+//     );
+// console.log(arr);
+// let arr2 = []
+// arr.forEach(item=>{
+//     if(item<5 &&  item>-5){
+//         arr2.push(item)
+//     }
+// })
+// console.log(arr2);
+
 // 10
 // const arr = Array.from(
 //   { length: 20 },
